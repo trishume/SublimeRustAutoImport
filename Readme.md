@@ -16,6 +16,10 @@ It provides the `rust_auto_import` command which you can bind to a key (or use f
 
 ![Demo GIF](demo/rust_auto_import_demo_3.gif)
 
+## Installation
+
+`git clone` this repository into your Sublime Text packages folder. Maybe I'll bother to add this to Package Control at some point.
+
 ## Disclaimers
 
 Feel free to send a PR if you want to fix one of these.
