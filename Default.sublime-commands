@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Rust: Auto-Import",
+        "command": "rust_auto_import",
+        // the below doesn't actually do anything sadly, hopefully this will get added at some point
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.rust - string - comment", "match_all": true },
+        ]
+    }
+]
