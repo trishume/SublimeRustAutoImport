@@ -26,6 +26,8 @@ Then add a keybinding for the `rust_auto_import` command, by adding a line like 
 { "keys": ["ctrl+a"], "command": "rust_auto_import" },
 ```
 
+You can also try it out immediately by choosing "Rust: auto-import" from the context menu or command pallete.
+
 ## Disclaimers
 
 Feel free to send a PR if you want to fix one of these.
