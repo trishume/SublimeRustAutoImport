@@ -15,3 +15,12 @@ It provides the `rust_auto_import` command which you can bind to a key (or use f
 ## Demo GIF
 
 ![Demo GIF](demo/rust_auto_import_demo_3.gif)
+
+## Disclaimers
+
+Feel free to send a PR if you want to fix one of these.
+
+- Currently uses the 2018 edition import style with no setting to change it
+- Only includes a limited set of standard library includes
+- Uses hacky regexes instead of real parsing
+- Doesn't fully support nested braced imports
