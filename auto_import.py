@@ -2,9 +2,7 @@ import sublime, sublime_plugin
 import re
 import os
 
-# import Default.history_list
-import sys
-hist_list = sys.modules["Default.history_list"]
+from Default import history_list
 
 COMMON_PATHS = {
     "HashMap": "std::collections::HashMap",
@@ -115,7 +113,7 @@ class RustAutoImportCommand(sublime_plugin.TextCommand):
         return self.view.text_point(r+1,c)
 
     def run(self, edit, **args):
-        hist_list.get_jump_history_for_view(self.view).push_selection(self.view)
+        history_list.get_jump_history_for_view(self.view).push_selection(self.view)
         symbol = self.view.substr(self.view.word(self.view.sel()[0]))
 
         locs = self.view.window().lookup_symbol_in_index(symbol)
