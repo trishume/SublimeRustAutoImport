@@ -24,6 +24,7 @@ COMMON_PATHS = {
 
     "mem": "std::mem",
     "io": "std::io",
+    "fmt": "std::fmt",
 
     "Rc": "std::rc::Rc",
     "RefCell": "std::cell::RefCell",
@@ -38,9 +39,12 @@ COMMON_PATHS = {
     "Receiver": "std::sync::mpsc::Receiver",
     "channel": "std::sync::mpsc::channel",
 
+    "Error": "std::error::Error",
+    "Display": "std::fmt::Display",
+
     "from_str": "std::str::FromStr",
-    "borrow": "std::str::Borrow",
-    "borrow_mut": "std::str::BorrowMut",
+    "borrow": "std::borrow::Borrow",
+    "borrow_mut": "std::borrow::BorrowMut",
     "read_line": "std::io::BufRead",
     "read_to_end": "std::io::Read",
     "read_to_string": "std::io::Read",

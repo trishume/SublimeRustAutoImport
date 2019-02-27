@@ -36,3 +36,4 @@ Feel free to send a PR if you want to fix one of these.
 - Only includes a limited set of standard library includes
 - Uses hacky regexes instead of real parsing
 - Doesn't fully support nested braced imports
+- Can only add to top-level imports not imports in a test module
