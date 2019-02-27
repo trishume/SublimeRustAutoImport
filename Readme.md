@@ -18,9 +18,9 @@ It provides the `rust_auto_import` command which you can bind to a key (or use f
 
 ## Installation
 
-`git clone` this repository into your Sublime Text packages folder. Maybe I'll bother to add this to Package Control at some point.
+Install [RustAutoImport](https://packagecontrol.io/packages/RustAutoImport) from Package Control.
 
-Then add a keybinding for the `rust_auto_import` command, by adding a line like this to your keybindings file:
+Then add a keybinding of your choice for the `rust_auto_import` command, by adding a line like this to your keybindings file:
 
 ```json
 { "keys": ["ctrl+a"], "command": "rust_auto_import" },
