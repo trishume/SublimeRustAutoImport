@@ -10,12 +10,16 @@ COMMON_PATHS = {
     "BTreeMap": "std::collections::BTreeMap",
     "BTreeSet": "std::collections::BTreeSet",
     "VecDeque": "std::collections::VecDeque",
+    "BinaryHeap": "std::collections::BinaryHeap",
 
     "Range": "std::ops::Range",
 
     "Path": "std::path::Path",
     "PathBuf": "std::path::PathBuf",
     "File": "std::fs::File",
+
+    "Command": "std::process::Command",
+    "Output": "std::process::Output",
 
     "Reader": "std::io::Reader",
     "BufReader": "std::io::BufReader",
@@ -42,10 +46,13 @@ COMMON_PATHS = {
     "Error": "std::error::Error",
     "Display": "std::fmt::Display",
 
+    "Ordering": "std::cmp::Ordering",
+
     "from_str": "std::str::FromStr",
     "borrow": "std::borrow::Borrow",
     "borrow_mut": "std::borrow::BorrowMut",
     "read_line": "std::io::BufRead",
+    "lines": "std::io::BufRead",
     "read_to_end": "std::io::Read",
     "read_to_string": "std::io::Read",
 }
